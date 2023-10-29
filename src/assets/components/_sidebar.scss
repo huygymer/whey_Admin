@@ -1,0 +1,28 @@
+/* App.css */
+.custom-sidebar {
+    transition: all 0.3s;
+  }
+  
+  .custom-sidebar.collapsed {
+    width: 80px; /* Collapsed sidebar width */
+  }
+  
+  .menu-toggle-button {
+    display: none; /* Hide the button by default on larger screens */
+  }
+  
+  @media (max-width: 992px) {
+    .custom-sidebar {
+      width: 80px; /* Adjust collapsed width for smaller screens */
+    }
+  
+    .menu-toggle-button {
+      display: block; /* Show the button on smaller screens */
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+  }
+  .container{
+    margin: 0 40px;
+  }
