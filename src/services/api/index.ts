@@ -1,6 +1,6 @@
 import axios from "axios";
 const client = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
+  baseURL: "https://whey-api-xx08.onrender.com",
   timeout: 100000,
 });
 

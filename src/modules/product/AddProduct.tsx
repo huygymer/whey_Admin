@@ -27,7 +27,7 @@ export default function AddProduct() {
     return (
       <>
         <Spin spinning={loading}>
-          <h1>Thêm mới bài viết</h1>
+          <h1> Add New Product </h1>
           <ProductForm
             submit={onAdd}
             initialValues={{

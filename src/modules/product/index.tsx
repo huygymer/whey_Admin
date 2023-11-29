@@ -99,11 +99,11 @@ export default function Products() {
   }, []);
   return (
     <Spin spinning={loading}>
-      <h1>Quản lý bài viết</h1>
+      <h1> Manage Product </h1>
       <Col span={24} style={{ textAlign: "right" }}>
         <Link to={"products/add"}>
           <Button type="primary" style={{ marginBottom: 16 }}>
-            Thêm mới
+            Add New Product 
           </Button>
         </Link>
       </Col>
